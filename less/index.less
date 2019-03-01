@@ -1,0 +1,201 @@
+@import "./base.less";
+
+#header {
+    // position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{  
+            margin-left: .1rem;
+            color: #db4ab3;
+            i{
+                font-size: .1rem;
+            }
+        }
+    }
+
+    .center {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3{
+            font-weight: normal;
+        }
+    }
+
+    .right {
+        a {
+            display: block;
+            text-align: center;
+            line-height: 0.4rem;
+            img{
+                height: 0.25rem;
+                width: 0.25rem;
+                margin-right: .1rem;
+            }
+        }
+    }
+}
+
+
+//轮播图
+#slide {
+    img {
+        width: 100%;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
+    }
+}
+
+//nav
+#nav{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 33.33%;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0.05rem 0;
+                img {
+                    width: 1.2rem;
+                }
+            }
+        }
+    }   
+}
+
+
+//导航签证那些什么鬼的
+#menu {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 25%;
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0.05rem 0;
+                img {
+                    width: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+#lvY{
+    margin-top: 0.1rem;
+    .content {
+        display: flex;
+        .left {
+            width: 50%;
+            a {
+                display: block;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .right {
+            width: 50%;
+            a {
+                display: block;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 热门
+
+#hot{
+    .title{
+        h3{
+            font-weight: normal;
+            margin-top: 0.2rem;
+        }
+       
+    }
+    .hot-img{
+        // width: 100%;
+        a { 
+            display: block;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// main
+
+#main{
+    margin-top: 0.2rem;
+    .tit{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        span:first-child{
+            display: block;
+            color: #df5e7e;
+            padding-bottom: 0.1rem;
+            border-bottom: 0.02rem solid #df5e7e;
+        }
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.1rem;
+        background-color: #fff;
+        img{
+            width: 100%;
+        }
+        span{
+            margin-top: 0.05rem;
+            font-size: 0.05rem;  
+    }
+    .main-bottom{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i{
+            font-size: 1rem;
+            margin-left: 0.05rem;
+        }
+    }
+}
+
+
+
+#footer{
+    margin-top: 0.1rem;
+    background-color: #df5e7e;
+    display: flex;
+    justify-content: space-between;
+    div{
+       a{  
+           display: inline-block;
+           margin-left: 0.1rem;
+           color: #fff;
+       }
+    }
+}

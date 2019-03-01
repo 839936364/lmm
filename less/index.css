@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+html {
+  font-size: 26.6667vw;
+}
+body {
+  font-size: 0.14rem;
+  font-family: -apple-system, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+li {
+  list-style: none;
+}
+input {
+  border: 0;
+  outline: none;
+}
+img {
+  /* 解决图片底部3px间隙问题 */
+  vertical-align: middle;
+}
+i {
+  /* 去掉斜体 */
+  font-style: normal;
+}
+.bt {
+  border-top: 0.01rem solid #dddddd;
+}
+.bb {
+  border-bottom: 0.01rem solid #dddddd;
+}
+.bl {
+  border-left: 0.01rem solid #dddddd;
+}
+.br {
+  border-right: 0.01rem solid #dddddd;
+}
+#header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+#header .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .left a {
+  margin-left: .1rem;
+  color: #db4ab3;
+}
+#header .left a i {
+  font-size: .1rem;
+}
+#header .center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .center h3 {
+  font-weight: normal;
+}
+#header .right a {
+  display: block;
+  text-align: center;
+  line-height: 0.4rem;
+}
+#header .right a img {
+  height: 0.25rem;
+  width: 0.25rem;
+  margin-right: .1rem;
+}
+#slide img {
+  width: 100%;
+}
+#slide .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav ul li {
+  width: 33.33%;
+}
+#nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.05rem 0;
+}
+#nav ul li a img {
+  width: 1.2rem;
+}
+#menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#menu ul li {
+  width: 25%;
+}
+#menu ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.05rem 0;
+}
+#menu ul li a img {
+  width: 1rem;
+}
+#lvY {
+  margin-top: 0.1rem;
+}
+#lvY .content {
+  display: flex;
+}
+#lvY .content .left {
+  width: 50%;
+}
+#lvY .content .left a {
+  display: block;
+}
+#lvY .content .left a img {
+  width: 100%;
+}
+#lvY .content .right {
+  width: 50%;
+}
+#lvY .content .right a {
+  display: block;
+}
+#lvY .content .right a img {
+  width: 100%;
+}
+#hot .title h3 {
+  font-weight: normal;
+  margin-top: 0.2rem;
+}
+#hot .hot-img a {
+  display: block;
+  width: 100%;
+}
+#hot .hot-img a img {
+  width: 100%;
+}
+#main {
+  margin-top: 0.2rem;
+}
+#main .tit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main .tit span:first-child {
+  display: block;
+  color: #df5e7e;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.02rem solid #df5e7e;
+}
+#main .tab {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.1rem;
+  background-color: #fff;
+}
+#main .tab img {
+  width: 100%;
+}
+#main .tab span {
+  margin-top: 0.05rem;
+  font-size: 0.05rem;
+}
+#main .tab span:first-child {
+  font-size: 0.03rem;
+}
+#main .main-bottom {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main .main-bottom i {
+  font-size: 0.1rem;
+  margin-left: 0.05rem;
+}
+#footer {
+  margin-top: 0.1rem;
+  background-color: #df5e7e;
+  display: flex;
+  justify-content: space-between;
+}
+#footer div a {
+  display: inline-block;
+  margin-left: 0.1rem;
+  color: #fff;
+}
